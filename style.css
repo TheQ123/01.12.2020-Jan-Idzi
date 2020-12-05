@@ -1,0 +1,130 @@
+
+
+  header{
+  border-bottom:1px dotted black;
+  clear: both;
+  width: 100%;
+  }
+  section#headline{
+  clear: both;
+  border:5px solid black;
+  padding: 1%;
+  width: 97%;
+  }
+  section#Sport,section#Rozrywka,section#Komputery{
+  float: left;
+  margin:0 5px;
+  padding: 1%;
+  width: 30%;
+  }
+  footer{
+clear: both;
+  }
+  #href{
+      border:0;
+      display:block;
+      width:66%;
+      float:left;
+      padding-left: 4px;
+  }
+
+
+
+
+
+
+
+
+*{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+  font-size: 20px;
+  background-color:darkgrey;
+  text-align:center;
+}
+
+/*-----------------NAV----------------*/
+
+ul {
+  padding:0;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color: #333;
+  position:-webkit-sticky; 
+  position:sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  position:relative;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  text-align: center;
+  padding-left:30px;
+  background-color:darkslategrey;
+}
+  
+
+@media only screen and (max-width: 600px){
+ul{ float:none; width:99,9%}
+li {width:50%}
+section#headline{width:95%}
+section#Sport  {width:95%}
+section#Komputery {width:95%}
+section#Rozrywka {width:95%}
+}
+
+
+  
+
+a{
+color:black;
+text-decoration: none;
+}
+a:hover{
+color:lightblue;
+}
+a:focus{
+    color:red;
+}
+
+/*---------ARTICLE-----------*/
+hgroup{
+  text-align: center;    
+  font-weight:900;
+  }
+
+#Komputery, #Sport, #Rozrywka,#headline ,header{
+    text-align:center;
+    color:floralwhite;
+}
+
+#href{
+    float:left;
+    width: 50%;
+    height:auto;
+}
+
+footer{
+    border:solid 1px black;
+    text-align: center;}
